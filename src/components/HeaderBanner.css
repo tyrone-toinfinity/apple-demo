@@ -1,0 +1,27 @@
+.headerBannerWrapper {
+  background-color: #cc0000;
+  font-size: 0.8rem;
+}
+.header__Banner {
+  background-color: #cc0000;
+  color: white;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 80rem;
+  margin: auto;
+  padding: 0.25rem 1.5rem;
+}
+.navShortcutLinks {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.nav__shortLink {
+  border-bottom: transparent 1px solid;
+  cursor: pointer;
+}
+.nav__shortLink:hover {
+  border-bottom: #fff 1px solid;
+}
