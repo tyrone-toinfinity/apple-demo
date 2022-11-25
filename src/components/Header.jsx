@@ -1,6 +1,7 @@
 import { HeaderBanner } from "./HeaderBanner";
 import { FaSearch, FaRegUserCircle } from "react-icons/fa";
 import { FiShoppingCart } from "react-icons/fi";
+import { HiXMark } from "react-icons/hi2";
 import "./Header.css";
 
 export const Header = () => {
@@ -27,6 +28,10 @@ export const Header = () => {
               id=""
               className="header__searchInput"
               placeholder="Search"
+            />
+            <HiXMark
+              className="header__close"
+              onClick={() => console.log("click")}
             />
             <FaSearch className="header__searchIcon" />
           </div>
